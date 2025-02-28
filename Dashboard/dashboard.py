@@ -5,8 +5,8 @@ import seaborn as sns
 import numpy as np
 
 # Load data
-day = pd.read_csv('https://raw.githubusercontent.com/rmdlaska11/Analisis-Data/main/day.csv')
-hour = pd.read_csv('https://raw.githubusercontent.com/rmdlaska11/Analisis-Data/main/hour.csv')
+day = pd.read_csv('https://raw.githubusercontent.com/rmdlaska11/Analisis-Data/main/data/day.csv')
+hour = pd.read_csv('https://raw.githubusercontent.com/rmdlaska11/Analisis-Data/main/data/hour.csv')
 
 # Ubah format dteday menjadi datetime
 day['dteday'] = pd.to_datetime(day['dteday'])
